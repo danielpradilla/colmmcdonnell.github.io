@@ -18,8 +18,8 @@ d3.csv("data/spinningheart.csv", function(error, links) {
 	var color = d3.scale.category20();
 
 	var force = d3.layout.force()
-	    .charge(-150)
-	    .linkDistance(50)
+	    .charge(-175)
+	    .linkDistance(75)
 	    .size([width, height]);
 
 	var svg = d3.select("body").append("svg")
